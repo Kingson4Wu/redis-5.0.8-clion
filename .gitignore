@@ -28,3 +28,23 @@ deps/lua/src/liblua.a
 .prerequisites
 *.dSYM
 Makefile.dep
+.idea/**
+
+Makefile
+**/Makefile
+CMakeFiles/**
+CMakeCache.txt
+cmake-build-debug/**
+cmake_install.cmake
+**/CMakeFiles/**
+deps/linenoise/liblinenoise.a
+deps/lua/liblua.a
+redis.cbp
+
+#git update-index --assume-unchanged <files>
+#git update-index --assume-unchanged Makefile
+#git update-index --assume-unchanged deps/Makefile
+#git update-index --assume-unchanged deps/hiredis/Makefile
+#git update-index --assume-unchanged deps/linenoise/Makefile
+#git update-index --assume-unchanged deps/lua/Makefile
+#git update-index --assume-unchanged src/modules/Makefile
